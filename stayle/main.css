@@ -1,0 +1,306 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #616d4f;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: calc(2px + 39 * (100vw / 1920));
+}
+
+
+.black-square{
+    width: calc(1px + 9 * (100vw / 1920));
+    height: calc(1px + 9 * (100vw / 1920));
+    background-color: black;
+    position: relative;
+    left: -29.5%;
+    margin-bottom: -12%;
+}
+
+.black-square1{
+    width: calc(1px + 9 * (100vw / 1920));
+    height: calc(1px + 9 * (100vw / 1920));
+    background-color: black;
+    position: relative;
+    left: -4.2%;
+    margin-bottom: -5.8%;
+}
+.black-square2{
+    width: calc(1px + 9 * (100vw / 1920));
+    height: calc(1px + 9 * (100vw / 1920));
+    background-color: black;
+    position: relative;
+    left: 9.5%;
+}
+
+
+
+.header .saktion-photo{
+    width: 40%;
+
+}
+.header .saktion-photo .usser-photo{
+    position: relative;
+    left: 18%;
+    top: 13%;
+
+}
+.header .saktion-photo .usser-photo img{
+    width: 100%;
+}
+.header .saktion-photo .usser-photo .black-square{
+    width: 50%;
+    height: calc(1px + 3 *(100vw / 1920));
+    top: 80%;
+    position: absolute;
+}
+.header .saktion-photo .usser-photo .bleak{
+    width: 10%;
+    height: 40%;
+    left: 90%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+
+.header .saktion-title{
+    width: 50%;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .saktion-title h1{
+    width: 30%;
+    font-size: calc(1px + 81 * (100vw / 1920));
+    z-index: 1;
+    margin: 0;
+    margin-left: -2%;
+    letter-spacing: calc(2px + 8 * (100vw / 1920));
+    text-transform: uppercase;
+}
+.header .saktion-title h1::first-letter{
+    font-weight: 900;
+    color: white;
+}
+.header .saktion-title h1:nth-child(2){
+    font-weight: 100;
+}
+.header .saktion-title h2{
+    width: 46%;
+    margin-left: -10%;
+    text-align: end;
+    text-transform: uppercase;
+    border-bottom: calc(1px + 4 *(100vw / 1920)) solid black;
+    z-index: 1;
+    font-size: calc(1px + 20 * (100vw / 1920));
+    padding-bottom: 2%;
+}
+.header .saktion-title .title-text{
+    width: 80%;
+    font-size: calc(1px + 25 * (100vw / 1920));
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.header .saktion-title .black-square{
+    height: 40%;
+    left: 96%;
+    width: calc(1px + 3 *(100vw / 1920));
+    position: relative;
+}
+
+
+
+
+
+
+main{
+    display: flex;
+    font-size: calc(3px + 23 * (100vw / 1920));
+
+}
+
+
+main .left {
+    height: 50%;
+    width: 40%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-left: 9.7%;
+
+    padding: 9% 4% 4% 7%;
+}
+
+
+main .left .container-about{
+    height: 20%;
+}
+main .left .container-my-data{
+    margin-left: -50%;
+    margin-top: 15%;
+    height: 30%;
+    width: 166%;
+    opacity: .9;
+    color: white;
+    background-color: #616d4f;
+    box-sizing: border-box;
+
+}
+main .left .container-my-data .contant{
+    height: 100%;
+    margin-left: 30%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .left .container-my-data .contant p{
+    color: white;
+    margin: 0;
+    margin-bottom: 4%;
+
+}
+
+
+
+
+
+
+main .left .container-skills{
+    height: 50%;
+    margin-top: 10%;
+}
+main .left .container-skills .box-progres{
+    width: 100%;
+    height: calc(1px + 5 * (100vw / 1920));
+    background-color: lightgray;
+}
+
+main .left .container-skills .box-progres .skill-progres{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+main .left .container-skills .box-progres:nth-child(4) .skill-progres{
+    width: 50%;
+
+}
+
+main .left .container-skills .box-progres:nth-child(6) .skill-progres{
+    width: 50%;
+
+}
+
+
+
+
+
+main .right{
+    padding-top: 9%;
+    padding-left: 2%;
+    font-size: calc(3px + 18 * (100vw / 1920));
+
+}
+
+main .right .container-eduketion {
+    height: 50%;
+}
+
+main .right .container-experience{
+    height: 50%;
+    margin-top: 9%;
+}
+
+
+
+
+footer{
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    background-color: black;
+}
+footer .my-social-network{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .my-social-network a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: calc(3px + 32 * (100vw / 1920));
+
+}
+footer .my-social-network p{
+    margin: 0;
+}
+footer .my-social-network a img{
+    margin-right: 10%;
+    width: calc(3px + 55 * (100vw / 1920));
+    height: calc(3px + 55 * (100vw / 1920));
+
+}
+
+
+
+@media(max-width: 1230px){
+    .black-square{
+        left: -31.5%;
+    }
+
+    main .left .container-my-data{
+        width: 167%;
+    }
+}
+
+@media(max-width: 730px){
+    main .left .container-my-data{
+        width: 169%;
+    }
+
+    .black-square{
+        left: -34.7%;
+    }
+}
+
+@media(max-width: 600px){
+    main{
+        flex-direction: column;
+    }
+    main .left{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0;
+        padding-bottom: 5%;
+        box-sizing: border-box;
+    }
+    main .left .container-my-data{
+        width: 100%;
+        margin: 0;
+    }
+    main .right{
+        border: 2px solid black
+    }
+}
